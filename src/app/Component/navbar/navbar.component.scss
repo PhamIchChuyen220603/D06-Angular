@@ -1,0 +1,102 @@
+#navbar{
+    background-color: black;
+    // width: 100%;
+    height: 100px;
+    // flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#name{
+    color: white;
+    float: left;
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 17px;
+}
+
+
+#search{
+    width: 500px;
+    height: 30px;
+    margin-left: 150px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.left button{
+    font-size: 18px;
+    margin-top: 13px;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.left button:hover{
+    color: yellow;
+}
+
+.right{
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;   
+}
+
+
+#sidebar{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px ;
+    display: flex;
+}
+
+.bt1{
+    font-size: 20px;
+}
+
+.type{
+    margin-top: 15px;
+}
+
+.type:hover{
+    color: yellow;
+}
+
+.bt2{
+    font-size: 15px;
+}
+
+.all:hover{
+    color: red;
+}
+
+.price:hover{
+    color: red;
+}
+
+.img{
+    width: 1050px;
+    height: 170px;
+    margin-left: 20px;
+}
+
+// .card{
+//     float: right;
+// }
+
+// .infor{
+//     background-color: aqua;
+//     width: 250px;
+//     background-size: cover;
+//     margin: 10px;
+//     margin-left: 50px;
+// }
+
+// .card:hover{
+//     color: yellow;
+// }
+
+
+
