@@ -165,7 +165,7 @@ export class CardComponent {
       name: "Tiempo Legend 9 Pro",
       img: 'https://product.hstatic.net/1000061481/product/anh_sp_add_web_2-01-3_5fb12718c90b43d09a00d02c9ded4290_1024x1024.jpg',
       information: 'LUCENT - GREY/YELLOW STRIKE/SUNSET GLOW',
-      price: '2.0,000 Đồng',
+      price: '2.750.000 Đồng',
       sell: 'Còn hàng',
     },
 
