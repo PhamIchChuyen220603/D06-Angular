@@ -196,5 +196,35 @@ export class CardComponent {
       sell: 'Còn hàng',
     },
 
+    {
+      id: 22,
+      name: "Kamito TA11",
+      img: 'https://product.hstatic.net/1000061481/product/2-02-02-02-02-02-02-02-02-01-01-01-01-01-01-01-01-02-01-02-01-01-01-02_da3f4ea9d416449396828b55b65aeb01_1024x1024.jpg',
+      information: 'MAGIC - AQUA BLUE/GOLD',
+      price: '690.000 Đồng',
+      sell: 'Còn hàng',
+    },
+
+    {
+      id: 23,
+      name: "Kamito Velocidad",
+      img: 'https://product.hstatic.net/1000061481/product/anh_sp_add_web_2-02_d9590b8c0cd442ee98ea082c5990799a_1024x1024.jpg',
+      information: 'YELLOW/BLACK',
+      price: '499.000 Đồng',
+      sell: 'Còn hàng',
+    },
+
+    {
+      id: 24,
+      name: "X Munich Continental",
+      img: 'https://product.hstatic.net/1000061481/product/anh_sp_add_web_2munich-01_0e1a4a72b9094eceb87339bf4008b1bf_1024x1024.jpg',
+      information: 'SOLAR YELLOW/BLUE',
+      price: '2.950.000 Đồng',
+      sell: 'Còn hàng',
+    },
+
+
+
+
   ]
 }

@@ -16,10 +16,14 @@
 }
 .card{
     background-color:rgb(255, 255, 255);
-    width: 350px;
+    width: 310px;
     background-size: cover;
     margin: 10px;
     transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .card:hover{
     width: 355px;
@@ -40,8 +44,8 @@
 }
 
 .card-image{
-    max-width: 100%;
-    height: 350px;
+    max-width: 90%;
+    height: 300px;
     object-fit: cover;
     width: 100%;
 }
