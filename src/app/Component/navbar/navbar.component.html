@@ -1,60 +1,22 @@
 <div id="navbar">
-    <p id="name" style="color: yellow;">ShoesStore</p>
+    <p id="name" style="color: yellow;" >ShoesStore</p>
     <input placeholder="Tìm Kiếm..." id="search">
     <div class="right">
-        <span class="material-icons" style="color: white;">person</span>
-        <span class="material-icons" style="color: white;">shopping_cart</span>
+        
+        <h2 (click)="navigateToCart()" style="color: white;">
+            <span class="material-icons" style="color: white;">shopping_cart</span>{{this.cartSerVice.cart.length}}
+        </h2>
+        
     </div>
 
     <div class="left">
-        <button>Trang Chủ
-        </button>
-        <Button>Về ShoesStore
-            <span class="material-icons">arrow_drop_down</span>
-        </Button>
-        <button>Giày Bóng Đá
-            <span class="material-icons">arrow_drop_down</span>
-        </button>
-        <button>Phụ Kiện
-            <span class="material-icons">arrow_drop_down</span>
-        </button>
-        <button>Hướng Dẫn
-            <span class="material-icons">arrow_drop_down</span>
-        </button>
-        <button>Cách Chọn Size</button>
+        <button (click)="navigateToHome()">Trang Chủ</button>
+        <Button (click)="navigateToNike()">Nike</Button>
+        <button (click)="navigateToAdidas()">Adidas</button>
+        <button (click)="navigateToPuma()">Puma</button>
+        <button (click)="navigateToMizuno()">Mizuno</button>
         <button>Liên Hệ</button>
         <button style="color: white; background-color: red;">Sale Xả Hàng</button>
     </div>
 </div>
-
-<!-- <div id="sidebar">
-        <div class="bt1">
-            <h1>Danh Mục Sản Phẩm</h1>
-            <ul class="type">Nike</ul>
-            <ul class="type">Adidas</ul>
-            <ul class="type">Puma</ul>
-            <ul class="type">Mizuno</ul>
-            <ul class="type">Kamito</ul>
-            <h2>Giá</h2>
-            <div class="bt2">
-                <ul class="all">Tất Cả</ul>
-                <ul class="price">0 VNĐ ~ 1.000.000 VNĐ</ul>
-                <ul class="price">1.000.000 VNĐ ~ 2.000.000 VNĐ</ul>
-                <ul class="price">2.000.000 VNĐ ~ 3.000.000</ul>
-                <ul class="price">Trên 3.000.000 VNĐ</ul>
-            </div>
-        </div>
-        <img src="https://file.hstatic.net/1000061481/collection/champion_code_pack-16-13-17-17-17-17-16-16-16-12-18-16-16-13-17_4f3ac499b2c9459fa0a55d72de100d37.jpg"
-            alt="Puma Future" class="img">
-
-        <div class="container2"></div>
-        <div class="card">
-            <div class="infor">
-                <img src="" alt="card-img">
-                <h2 class="name">name</h2>
-                <h2 class="information">Thông tin</h2>
-                <h2 class="price">100k</h2>
-                <h2 class="stocking">Còn hàng</h2>
-            </div>
-        </div>
-    </div> -->
+<span></span>

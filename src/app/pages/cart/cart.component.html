@@ -1,0 +1,11 @@
+<div class="abc">
+    <div class="container" *ngFor="let i of this.cartSerVice.cart">
+        <div class="card">
+            <h2 id="abc">{{i.name}}</h2>
+            <img class="card-image" [src]="i.img">
+            <p id="text">{{i.information}}</p>
+            <h3 id="mn">{{i.price}}</h3>
+            <h1>Tổng tiền: {{i.price * i.quantity}} Đồng</h1>
+        </div>
+    </div>
+</div>
