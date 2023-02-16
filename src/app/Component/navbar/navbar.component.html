@@ -3,8 +3,11 @@
     <input placeholder="Tìm Kiếm..." id="search">
     <div class="right">
         
-        <h2 (click)="navigateToCart()" style="color: white;">
+        <h2 (click)="navigateToCart()" style="color: white; margin-right: 10px;">
             <span class="material-icons" style="color: white;">shopping_cart</span>{{this.cartSerVice.cart.length}}
+            <button *ngIf="authService.currentUser==null" (click)="authService.login()">Login</button>
+            <img *ngIf="authService.currentUser" [src]="authService.currentUser.photoURL" class="img-login">
+            <button *ngIf="authService.currentUser!=null" (click)="authService.logout()">Logout</button>
         </h2>
         
     </div>
@@ -17,6 +20,7 @@
         <button (click)="navigateToMizuno()">Mizuno</button>
         <button>Liên Hệ</button>
         <button style="color: white; background-color: red;">Sale Xả Hàng</button>
+        
     </div>
 </div>
 <span></span>

@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
+import { Auth } from '@angular/fire/auth';
 import { Router } from '@angular/router';
+import { AuthService } from 'src/app/services/auth.service';
 import { CartService } from 'src/app/services/cart.service';
 
 @Component({
@@ -9,7 +11,7 @@ import { CartService } from 'src/app/services/cart.service';
 })
 export class NavbarComponent {
 
-  constructor(private router: Router, public cartSerVice: CartService) {
+  constructor(private router: Router, public cartSerVice: CartService, public auth: Auth, public authService: AuthService) {
 
   }
 
